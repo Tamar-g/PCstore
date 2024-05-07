@@ -22,7 +22,6 @@ public interface Backend {
     ArrayList<Product> getCustomersOrders(Customer c)throws  Exception;
 
 
-    // מחיקה של מוצר ממערך המוצרים, (אין צורך בלולאה.)
     void RemoveProduct(Product c) throws  Exception;
 
     float CalcProductsTotalCost(Product [] products)throws  Exception;
